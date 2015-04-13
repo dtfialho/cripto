@@ -1,2 +1,2 @@
 # cripto
-Programa em c que implementa a cifra de cesar
+Programa em c que implementa o algoritmo da cifra de cesar
