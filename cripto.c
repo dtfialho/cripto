@@ -2,30 +2,30 @@
 #include <stdlib.h>
 #include <string.h>
 
-////////////////////////////////////////
-/* cripto <operacao> <path> <chave>   //
-/**************************************/
-//Programa para criptografar textos   //
-//usando o algoritmo da cifra de cesar//
-/**************************************/
-/*       ARGUMENTOS DO PROGRAMA       */
-////////////////////////////////////////
-// <operacao>			      //
-//	 -c -> criptografar	      //
-//	 -d -> descriptografar	      //
-//	 -h -> help		      //
-//************************************//
-// <pathin>			      //
-//  caminho do arquivo que será lido //
-//************************************//
-// <pathout>			      //
-//  caminho do arquivo de saída mais //
-//   o nome do arquivo                //
-//************************************//
-// <chave>		    	      //
-//   chave para criptografar ou	      //
-//	 descriptografar o arquivo    //
-////////////////////////////////////////
+////////////////////////////////////////////////
+/*cripto <operacao> <pathin> <pathout> <chave>*/
+/**********************************************/
+//Programa para criptografar textos           //
+//usando o algoritmo da cifra de cesar        //
+/**********************************************/
+/*          ARGUMENTOS DO PROGRAMA            */
+////////////////////////////////////////////////
+// <operacao>			              //
+// -c -> criptografar	                      //
+// -d -> descriptografar	              //
+// -h -> help		                      //
+//********************************************//
+// <pathin>			              //
+//  caminho do arquivo que será lido          //
+//********************************************//
+// <pathout>			              //
+//  caminho do arquivo de saída mais o nome   //
+//  do arquivo                                //
+//********************************************//
+// <chave>		    	              //
+//  chave para criptografar ou	              //
+//  descriptografar o arquivo                 //
+////////////////////////////////////////////////
 
 void criptografa(char *pathin, char *pathout, char *chave)
 {
