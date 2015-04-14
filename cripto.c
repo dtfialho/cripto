@@ -16,10 +16,10 @@
 //	 -h -> help		      //
 //************************************//
 // <pathin>			      //
-//  caminho do arquivo que serÃ¡ lido //
+//  caminho do arquivo que será lido //
 //************************************//
 // <pathout>			      //
-//  caminho do arquivo de saÃ­da mais //
+//  caminho do arquivo de saída mais //
 //   o nome do arquivo                //
 //************************************//
 // <chave>		    	      //
