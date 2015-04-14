@@ -10,21 +10,21 @@
 /**************************************/
 /*       ARGUMENTOS DO PROGRAMA       */
 ////////////////////////////////////////
-// <operacao>						  //
-//	 -c -> criptografar				  //
-//	 -d -> descriptografar			  //
-//	 -h -> help						  //
+// <operacao>			      //
+//	 -c -> criptografar	      //
+//	 -d -> descriptografar	      //
+//	 -h -> help		      //
 //************************************//
-// <pathin>							  //
-//	 caminho do arquivo que serÃ¡ lido //
+// <pathin>			      //
+//  caminho do arquivo que serÃ¡ lido //
 //************************************//
-// <pathout>						  //
-//	 caminho do arquivo de saÃ­da mais //
+// <pathout>			      //
+//  caminho do arquivo de saÃ­da mais //
 //   o nome do arquivo                //
 //************************************//
-// <chave>							  //
-//   chave para criptografar ou		  //
-//	 descriptografar o arquivo		  //
+// <chave>		    	      //
+//   chave para criptografar ou	      //
+//	 descriptografar o arquivo    //
 ////////////////////////////////////////
 
 void criptografa(char *pathin, char *pathout, char *chave)
@@ -41,7 +41,6 @@ void criptografa(char *pathin, char *pathout, char *chave)
 	
 	if(i != 0)
 	{
-		
 		while(!feof(arqin))
 		{
 			c = fgetc(arqin);
@@ -70,7 +69,7 @@ void descriptografa(char *pathin, char *pathout, char *chave)
 {
 	int i = atoi(chave);
 	i = i % 26;
-  FILE *arqin;
+  	FILE *arqin;
 	FILE *arqout;
 	char c;
 	int caracter;
